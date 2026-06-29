@@ -380,8 +380,8 @@ Add screenshots before submission.
 
 # 👩‍💻 Authors
 
-**Dharini ,**
-**Divya Dharshini**
+**Dharini R ,**
+**Divya Dharshni V**
 
 Developed for the **Redrob AI Hiring Hackathon**.
 
