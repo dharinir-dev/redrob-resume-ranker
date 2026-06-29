@@ -50,14 +50,41 @@ An offline-first AI-powered candidate ranking system that ranks resumes against 
 
 ---
 
-# Run Locally
+## Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd candidate-ranking-system
+git clone https://github.com/<your-username>/redrob-resume-ranker.git
+cd redrob-ranker
+```
+
+## Backend Setup
+
+```bash
+cd backend
 pip install -r requirements.txt
-npm install && npm run build
-uvicorn backend.main:app --reload
+uvicorn main:app --reload
+```
+
+The backend will be available at:
+
+```
+http://127.0.0.1:8000
+```
+
+## Frontend Setup
+
+Open a new terminal:
+
+```bash
+cd redrob-ranker/frontend
+npm install
+npm run dev
+```
+
+The frontend will be available at:
+
+```
+http://localhost:5173
 ```
 
 Open your browser:
